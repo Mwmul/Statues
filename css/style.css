@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: helvetica; }
+  * a {
+    color: inherit;
+    text-decoration: none; }
+  * h1 {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: 400; }
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("https://kek.gg/i/7XS4_K.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 6px 21px -4px rgba(0, 0, 0, 0.63);
+  position: relative;
+  z-index: 999; }
+  header .inner {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    header .inner nav {
+      width: 100%;
+      overflow: visible; }
+      header .inner nav i {
+        font-size: 23px; }
+      header .inner nav .fa-bars {
+        float: right; }
+    header .inner .title {
+      text-align: center; }
+    header .inner .socials {
+      width: 100%;
+      overflow: hidden;
+      align-self: flex-end; }
+      header .inner .socials ul {
+        list-style: none;
+        padding: 0;
+        width: auto;
+        display: inline;
+        float: right;
+        font-size: 20px; }
+        header .inner .socials ul li {
+          float: left;
+          padding: 0px 15px 0px 15px; }
+          header .inner .socials ul li:hover {
+            opacity: 0.6; }
+
+.wrapper {
+  background: #E8E8E8; }
+
+.one {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  z-index: 0; }
+  .one .half {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .one .half .inner {
+      max-width: 440px; }
+      .one .half .inner h1 {
+        font-weight: bold;
+        margin-bottom: 30px; }
+      .one .half .inner p {
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      .one .half .inner a {
+        border-bottom: solid 1px;
+        text-align: left;
+        padding-bottom: 3px; }
+        .one .half .inner a i {
+          font-size: 12px;
+          margin-left: 10px;
+          transform: scale(1.2); }
+  .one .pic {
+    padding: 0;
+    display: block;
+    height: 100vh;
+    width: 50%;
+    max-height: 600px;
+    min-height: 470px;
+    background: url("https://kek.gg/i/85QMst.jpg");
+    background-size: cover;
+    background-position: center; }
+  .one .ovl {
+    width: 100%;
+    height: 100vh;
+    max-height: 600px;
+    min-height: 470px;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 250ms;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .one .ovl:hover {
+      background: rgba(0, 0, 0, 0.6); }
+    .one .ovl .inner {
+      max-width: 440px;
+      display: none; }
+      .one .ovl .inner h1 {
+        font-weight: bold;
+        margin-bottom: 30px; }
+      .one .ovl .inner p {
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      .one .ovl .inner a {
+        border-bottom: solid 1px;
+        text-align: left;
+        padding-bottom: 5px; }
+        .one .ovl .inner a i {
+          font-size: 12px;
+          margin-left: 10px;
+          transform: scale(1.2); }
+    @media screen and (max-width: 540px) {
+      .one .ovl .inner {
+        display: block;
+        padding: 30px; } }
+  .one .second {
+    background: url("https://kek.gg/i/fHWvG.jpg");
+    background-size: cover;
+    background-position: center; }
+  .one .third {
+    background: url("https://kek.gg/i/4f8wSQ.jpg");
+    background-size: cover;
+    background-position: center; }
+  @media screen and (max-width: 540px) {
+    .one .pic {
+      width: 100%;
+      border-bottom: solid 2px; } }
+  @media screen and (max-width: 540px) {
+    .one .half {
+      display: none; } }
+
+.two {
+  width: 100%;
+  margin-top: 90px;
+  background: url("http://i.imgur.com/jN0YNff.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #E8E8E8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; }
+  .two .inner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 1px 36px 6px rgba(0, 0, 0, 0.4);
+    padding: 30px; }
+    .two .inner h1 {
+      margin-bottom: 20px; }
+    .two .inner a {
+      border-bottom: solid 1px;
+      text-align: left;
+      padding-bottom: 5px; }
+      .two .inner a i {
+        font-size: 12px;
+        margin-left: 10px;
+        transform: scale(1.2); }
+    .two .inner p {
+      margin-bottom: 20px; }
+  .two h1 {
+    font-size: 40px; }
+
+.three {
+  width: 100%;
+  margin-bottom: 50px; }
+  .three .inner {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px; }
+    .three .inner .text {
+      max-width: 600px;
+      width: 100%;
+      margin: auto;
+      padding: 30px;
+      margin-top: 55px;
+      margin-bottom: 40px; }
+      .three .inner .text h1 {
+        margin-bottom: 20px;
+        font-weight: 600;
+        width: 100%; }
+      .three .inner .text p {
+        letter-spacing: 1px;
+        line-height: 18px;
+        opacity: 0.85; }
+    .three .inner .selections {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .three .inner .selections .selection {
+        margin: 10px;
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.75);
+        width: 46%; }
+        .three .inner .selections .selection img {
+          width: 100%;
+          margin-bottom: -5px; }
+        .three .inner .selections .selection a {
+          width: 100%;
+          display: inline-block;
+          padding: 15px;
+          background: white;
+          transition: 200ms;
+          text-align: center; }
+          .three .inner .selections .selection a:hover {
+            background: none; }
+      @media screen and (max-width: 510px) {
+        .three .inner .selections .selection {
+          width: 95%; } }
+
+.four {
+  width: 100%;
+  overflow: hidden;
+  padding: 30px;
+  box-shadow: inset 0px 0px 75px 0px rgba(0, 0, 0, 0.1); }
+  .four .inner {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8); }
+    .four .inner h3 {
+      font-family: "Cinzel Decorative", cursive;
+      font-size: 30px;
+      margin-bottom: 10px;
+      text-align: left;
+      padding-left: 15px; }
+    .four .inner form {
+      width: 100%;
+      max-width: 600px;
+      margin: auto; }
+      .four .inner form button {
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.7);
+        border: solid 2px rgba(255, 255, 255, 0.4);
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 20px; }
+      .four .inner form input {
+        padding: 10px;
+        margin: 10px;
+        width: 80%;
+        background: rgba(255, 255, 255, 0.2);
+        border: solid 2px rgba(255, 255, 255, 0.4);
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 20px; }
+        .four .inner form input:focus {
+          outline: none; }
+      @media screen and (max-width: 510px) {
+        .four .inner form input {
+          width: 100%;
+          margin: 0;
+          margin-bottom: 10px; }
+        .four .inner form button {
+          width: 100%; } }
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  border-top: solid 2px;
+  background: #1B1B1B;
+  color: #E8E8E8;
+  padding: 30px; }
+  footer h3 {
+    font-family: "Cinzel Decorative", cursive;
+    margin-bottom: 20px; }
+  footer ul {
+    list-style: none;
+    padding: 0; }
+    footer ul li {
+      float: left;
+      font-size: 25px;
+      margin-right: 30px; }
+      footer ul li:hover {
+        opacity: 0.6; }
+
+/*# sourceMappingURL=style.css.map */
